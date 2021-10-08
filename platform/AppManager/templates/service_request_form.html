@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/fill-form" method="POST">
+
+    <div class="container">
+      <h2><u>Service Request Form</u></h2>
+      
+      <label for="fname"><b>UserName</b></label>
+      <input type="text" placeholder="Enter Username" id="fname" name="userID" required>
+
+      <label for="lname"><b>Developer Name</b></label>
+          <input type="text" id="lname" name="devID" placeholder="Enter App Developer Name here">
+
+      <label for="fname"><b>ApplicationName</b></label>
+      <input type="text" id = "fname" placeholder="Enter Application Name"  name="appID" required>
+
+      <label for="fname"><b>AlgoName</b></label>
+      <input type="text" id="fname" name="algoID" placeholder="Enter algo_id here" required>
+
+      <label for="fname"><b>Sensor Types</b></label>
+      <input type="text" id="fname" name="sensorList" placeholder="Enter comma separated sensor types" required>
+    
+      
+      <label for="lname"><b>Start Time</b></label>
+      <input type="text" id="lname" name="start_time" placeholder="Enter start time here">
+        
+      <label for="lname"><b>Location</b></label>
+      <input type="text" id="lname" name="location" placeholder="Enter location here">
+
+      <label for="lname"><b>Placeholder</b></label>
+      <input type="text" id="lname" name="placeholder" placeholder="Enter location here">
+      
+      <label for="lname"><b>End Time</b></label>
+      <input type="text" id="lname" name="end_time" placeholder="Enter duration here">
+
+      
+      <label for="fname"><b>Request Type</b></label> 
+      <select name = "request_type">
+          <option value = "immediate" selected>IMMEDIATE</option>
+          <option value = "periodic">PERIODIC</option>
+      </select><br><br>
+
+      <label for="fname"><b>Priority</b></label>
+      <select name = "priority">
+          <option value = "low">  LOW</option>
+          <option value = "medium">MEDIUM</option>
+          <option value = "high" selected>HIGH</option>
+      </select> <br><br>
+
+      <label for="days"><b>Days</b></label>
+      <select id="days" name="days" >
+          <option value="sunday">Sunday</option>
+          <option value="monday">Monday</option>
+
+          <option value="tuesday">Tuesday</option>
+          <option value="wednesday">Wednesday</option>
+          <option value="thursday">Thursday</option>
+          <option value="friday">Friday</option>
+          <option value="saturday">Saturday</option>
+        </select> <br><br>
+      
+        <label for="lname"><b>Duration</b></label>
+        <input type="text" id="lname" name="duration" placeholder="Enter Duration to run">
+
+        <label for="lname"><b>Interval</b></label>
+        <input type="text" id="lname" name="interval" placeholder="Enter Intervals">
+    <button type="submit" value="submit">Request Sevice</button>
+    
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">      
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

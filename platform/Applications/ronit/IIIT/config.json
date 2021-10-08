@@ -1,0 +1,6 @@
+{
+    "sensor_types": ["TEMP", "GPS","BIOMETRIC","LIGHT"], 
+    "controller_types": ["AC_0", "LIGHT_0","BUZZER"], 
+    "Algorithms": ["algo12","algo3","algo4"],
+    "version": "v.1.1"
+}

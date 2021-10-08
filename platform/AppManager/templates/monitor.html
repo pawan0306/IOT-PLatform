@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>Monitor</title>
+    <style>
+      #div1{
+      font-size:15pt;
+      background-color:white;
+      margin:auto;
+      border:5pt;
+      border-style: solid;
+      border-width: 3px;
+      text-align:center;
+      }
+      button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      }
+    </style>
+</head>
+  
+<body>
+	<div id="div1">
+    	  <iframe id="frame" frameborder="4px" height="1000" width="95%"></iframe>
+    	  <!--textarea height="80%" width="80%"></textarea-->
+	</div>
+  <form id="f1" action="/{{filename}}/monitor" method="POST">
+      <button type="submit" name="action" id="dashboard" value="stop">STOP</button>
+  </form>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js"></script>
+    <script type="text/javascript">
+
+    	function sleep(ms) {
+      		return new Promise(resolve => setTimeout(resolve, ms));
+   		}
+   		async function display() {
+   			for(i=0; i>-1; i+=0.1){
+    			console.log(i);
+          document.querySelector("iframe").contentWindow.scrollTo(0,100000);
+				  await sleep(2000);
+				  fn = "/{{filename}}/monitor";
+				  //document.querySelector("iframe").innerHTML=document.querySelector("iframe").setAttribute("src",fn);
+          document.querySelector("iframe").contentWindow.scrollTo(0,100000);
+          document.querySelector("iframe").setAttribute("src",fn);
+          document.querySelector("iframe").contentWindow.scrollTo(0,100000);
+          //$('iframe').animate({scrollTop: 9999});
+        //document.location.reload(true);
+  			}
+   		}
+   display()
+	</script> 
+</body>
+  
+</html>

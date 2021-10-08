@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Sensor Manager </title>
+    <style>
+        input[type=text], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+
+        input[type=checkbox], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+
+        input[type=submit] {
+          width: 100%;
+          background-color: #99ccff;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+          background-color: #80bfff;
+        }
+
+        div {
+          border-radius: 5px;
+          padding: 20px;
+        }
+
+    </style>
+</head>
+<body align="center">
+
+<h3>Install Sensor Instance</h3>
+<div style=" font-size: 15px;" align="center">
+
+    <form action="http://localhost:5050/install-sensor" method="POST">
+        <table>
+            <tr>
+                <td>
+                    <label for="stype">Sensor Type:</label>
+                </td>
+                <td>
+                    <input type="text" id="stype" name="type">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="desc">Placeholder:</label>
+                </td>
+                <td>
+                    <input type="text" id="desc" name="desc">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="location">Location:</label>
+                </td>
+                <td>
+                    <input type="text" id="location" name="location">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ip">IP:</label>
+                </td>
+                <td>
+                    <input type="text" id="ip" name="ip">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="port">PORT:</label>
+                </td>
+                <td>
+                    <input type="text" id="port" name="port">
+                </td>
+            </tr>
+            <tr>
+            <tr>
+                <td>
+                    <label for="port">Controller:</label>
+                </td>
+                <td>
+                    <input type="text" id="controller" name="controller">
+                </td>
+            </tr>
+            <tr>
+
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+</body>
+</html>

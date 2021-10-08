@@ -1,0 +1,38 @@
+Sun May  9 12:42:11 2021 :: bus1:27119 => Fare : 47.8969179585702
+Sun May  9 12:42:22 2021 :: bus1:High temperature(32C) detected! AC has been Turned ON
+Sun May  9 12:42:22 2021 :: bus1:High intensity light(17) detected! Lights has been Turned OFF
+Sun May  9 12:42:40 2021 :: bus1:Low temperature(18C) detected! AC has been Turned OFF
+Sun May  9 12:42:47 2021 :: bus1:43915 => Fare : 200.1699635597959
+Sun May  9 12:43:21 2021 :: bus1:Low intensity light(3) detected! Lights has been Turned ON
+Sun May  9 12:43:25 2021 :: bus1:60710 => Fare : 130.5409984488398
+Sun May  9 12:43:59 2021 :: bus1:High temperature(31C) detected! AC has been Turned ON
+Sun May  9 12:44:02 2021 :: bus1:65775 => Fare : 116.1022366430983
+Sun May  9 12:44:38 2021 :: bus1:31923 => Fare : 87.37601930695858
+Sun May  9 12:44:57 2021 :: bus1:Low temperature(15C) detected! AC has been Turned OFF
+Sun May  9 12:45:10 2021 :: bus1:High intensity light(16) detected! Lights has been Turned OFF
+Sun May  9 12:45:15 2021 :: bus1:85007 => Fare : 116.1022366430983
+Sun May  9 12:45:40 2021 :: bus1:Low intensity light(1) detected! Lights has been Turned ON
+Sun May  9 12:45:51 2021 :: bus1:67517 => Fare : 293.21442874717127
+Sun May  9 12:46:01 2021 :: bus1:High intensity light(18) detected! Lights has been Turned OFF
+Sun May  9 12:46:22 2021 :: bus1:Low intensity light(0) detected! Lights has been Turned ON
+Sun May  9 12:46:28 2021 :: bus1:85527 => Fare : 275.4452436983075
+Sun May  9 12:46:46 2021 :: bus1:High temperature(34C) detected! AC has been Turned ON
+Sun May  9 12:46:48 2021 :: bus1:High intensity light(18) detected! Lights has been Turned OFF
+Sun May  9 12:47:04 2021 :: bus1:32909 => Fare : 47.8969179585702
+Sun May  9 12:47:20 2021 :: bus1:Low temperature(18C) detected! AC has been Turned OFF
+Sun May  9 12:47:21 2021 :: bus1:Low intensity light(0) detected! Lights has been Turned ON
+Sun May  9 12:47:41 2021 :: bus1:23565 => Fare : 88.64663193562401
+Sun May  9 12:47:58 2021 :: bus1:High intensity light(17) detected! Lights has been Turned OFF
+Sun May  9 12:48:18 2021 :: bus1:25479 => Fare : 114.00055384084763
+Sun May  9 12:48:38 2021 :: bus1:Low intensity light(0) detected! Lights has been Turned ON
+Sun May  9 12:48:54 2021 :: bus1:79443 => Fare : 200.1699635597959
+Sun May  9 12:49:31 2021 :: bus1:89597 => Fare : 87.37601930695858
+Sun May  9 12:49:53 2021 :: bus1:High intensity light(19) detected! Lights has been Turned OFF
+Sun May  9 12:50:09 2021 :: bus1:38674 => Fare : 225.57835168723525
+Sun May  9 12:50:46 2021 :: bus1:42113 => Fare : 276.62548739409385
+Sun May  9 12:50:49 2021 :: bus1:Low intensity light(2) detected! Lights has been Turned ON
+Sun May  9 12:51:08 2021 :: bus1:High temperature(31C) detected! AC has been Turned ON
+Sun May  9 12:51:09 2021 :: bus1:High intensity light(17) detected! Lights has been Turned OFF
+Sun May  9 12:51:20 2021 :: bus1:Low intensity light(1) detected! Lights has been Turned ON
+Sun May  9 12:51:24 2021 :: bus1:61135 => Fare : 170.13542334275954
+Sun May  9 12:51:31 2021 :: bus1:Low temperature(19C) detected! AC has been Turned OFF

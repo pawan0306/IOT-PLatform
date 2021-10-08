@@ -1,0 +1,6 @@
+{
+    "sensor_types": ["OXYMETER"], 
+    "controller_types": [], 
+    "Algorithms": ["hospital"],
+    "version": "v.1.1"
+}

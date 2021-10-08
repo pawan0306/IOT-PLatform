@@ -1,0 +1,7 @@
+{
+    "files" : ["algo3.py", "API.py", "commAPI.py"],
+    "sensor_types" : ["GPS"],
+    "controller_types": ["BUZZER"],
+     "RAM":"200MB",
+     "CPU": "1.2Hz"
+}

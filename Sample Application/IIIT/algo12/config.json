@@ -1,0 +1,7 @@
+{
+    "files" : ["algo12.py", "API.py", "commAPI.py"],
+    "sensor_types" : ["TEMP","GPS","BIOMETRIC","LIGHT"],
+    "controller_types": ["AC_0", "LIGHT_0"],
+     "RAM":"200MB",
+     "CPU": "1.2Hz"
+}
